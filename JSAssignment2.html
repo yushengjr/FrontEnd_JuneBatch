@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ASSIGNMENT 2</title>
+<script src=JSAssignment2.js></script>
+</head>
+
+<body>
+<!-- Question 1: JS DOM paragraph style -->
+
+<div id="question1">
+<h2>Question 1</h2>
+<p id='q1'>This is the first question</p>
+<button id="jsstyle"
+onclick="js_style()">Switch text style(switch back)</button>
+<br>
+<br>
+</div>
+
+<!-- Question 2 -->
+<div id="question2">
+<h2>Question 2</h2>
+<form id="form1" onsubmit="getFormvalue()">
+First name: <input type="text" name="fname" value="Yusheng"><br>
+Last name: <input type="text" name="lname" value="Zhang"><br>
+<input type="submit" value="Submit">
+</form>
+<br>
+<br>
+</div>
+
+<!-- Question 3 -->
+<div id="question3">
+<h2>Question 3</h2>
+<p id='q3'>This is the Third question. This is an example paragraph that will change its background color when the following button is clicked</p>
+<button id="pcolor"
+onclick="changePColor()">Switch paragraph background color(switch back)</button>
+<br>
+<br>
+</div>
+
+
+<!-- Question 4 -->
+<div id="question4">
+<h2>Question 4</h2>
+<p><a id="w3r" type="text/html" hreflang="en-us" rel="nofollow" target="_self" href="https://www.w3resource.com/">w3resource</a></p>
+<button onclick="getAttributes()">Click here to get  attributes value</button>
+<br>
+<br>
+</div>
+
+
+<!-- Question 5 -->
+<div id="question5">
+<h2>Question 5</h2>
+<table id="sampleTable" border="1">
+<tr><td>Row1 cell1</td>
+<td>Row1 cell2</td></tr>
+<tr><td>Row2 cell1</td>
+<td>Row2 cell2</td></tr>
+</table><br>
+<input type="button" onclick="insert_Row()" value="Insert row"> 
+<br>
+<br>
+</div>
+
+<!-- Question 6 -->
+<!--  
+<div id="question6">
+<h2>Question 6</h2>
+<table id="myTable" border="1">
+<tr><td>Row1 cell1</td>
+<td>Row1 cell2</td></tr>
+<tr><td>Row2 cell1</td>
+<td>Row2 cell2</td></tr>
+<tr><td>Row3 cell1</td>
+<td>Row3 cell2</td></tr>
+</table><form>
+Row Number<input type="text"  id="rnum">
+Column Number<input type="text"  id="cnum">
+Add Content<input type="text"  id="content">
+<input type="button" onclick="changeContent()" value="Change content">
+</form>
+
+<br>
+<br>
+</div>
+-->
+<div id="question6">
+<h2>Question 6</h2>
+<table id="myTable" border="1">
+<tr><td>Row1 cell1</td>
+<td>Row1 cell2</td></tr>
+<tr><td>Row2 cell1</td>
+<td>Row2 cell2</td></tr>
+<tr><td>Row3 cell1</td>
+<td>Row3 cell2</td></tr>
+</table><form>
+<input type="button" onclick="changeContent()" value="Change content">
+</form>
+<br>
+<br>
+</div>
+
+
+<!-- Question 7 -->
+<div id="question7">
+
+<h2>Question 7</h2>
+
+<table id="myTable1" border="1">
+</table><form>
+<input type="button" onclick="createTable()" value="Create the table">
+</form>
+
+<br>
+<br>
+</div>
+
+<!-- Question 8 -->
+<div id="question8">
+
+<h2>Question 8</h2>
+
+<form>
+<select id="colorSelect">
+<option>Red</option>
+<option>Green</option>
+<option>White</option>
+<option>Black</option>
+</select>
+<input type="button" onclick="removecolor()" value="Select and Remove"> 
+</form>
+</div>
+</body>
+</html>
+
